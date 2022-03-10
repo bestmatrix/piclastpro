@@ -1,0 +1,175 @@
+{
+"Ads": [
+{
+
+//  STATUS_APP = "0" must set 0 if your app still live on playstore
+//  and STATUS_APP = "1" if your app "suspend"
+//  fill LINK_REDIRECT with new link app
+"STATUS_APP" : "0",
+"LINK_REDIRECT" : "https://play.google.com/store/apps/details?id=com.package.name",
+
+// memanggil data dari json "online" atau json "offline"
+//  online atau offline
+// jika online maka akan memanggil data mp3 wallpaper yang ada di json online kalian
+//  jika offline maka akan mmanggil data mp3 wallpaper yang ada di json folder asset
+// online offline huruf kecil
+"MODE_MP3_ONLINE_OFFLINE" : "online",
+
+
+"MODE_BACKUP_ADS" : true,
+"MODE_NO_ADS" : true,
+"ADS_ON_START" : false, // CTR NAIK PESAT
+"ADS_ON_EXIT_DIALOG" : true, // CTR NAIK PESAT
+
+"JSON_POPUP_WAIT" : "Server Json Ready . . .",
+"MODE_NO_ADS_TRUE" : "Pro Version Actived",
+
+// PENGATURAN IKLAN
+// ADMOB      backup unity backup startapp
+// FAN        backup unity backup startapp
+// UNITY      backup startapp
+// TAPDAQ     backup unity backup startapp
+"MODE_TES_IKLAN_FAN_ADMOB_STARTAPP_UNITY" : false,
+"PENGATURAN_IKLAN_BANNER" : "ADMOB",
+"PENGATURAN_IKLAN_INTER" : "ADMOB",
+"INTER_COUNT" : 10,
+
+"ADMOB_INTER" : "ca-app-pub-3940256099942544/1033173712",
+"ADMOB_BANNER" : "ca-app-pub-3940256099942544/6300978111",
+"ADMOB_OPENADS" : "BIARKAN KOSONG",
+
+"FAN_INTER" : "YOUR_PLACEMENT_ID",
+"FAN_BANNER" : "YOUR_PLACEMENT_ID",
+
+"UNITY_BANNER" : "banner",
+"UNITY_INTERSTITIAL" : "interstitial",
+"UNITY_GAME_ID" : "12345",
+
+"STARTAPPID" : "123154",
+"ENABLE_STRAP" : true,
+"ENABLE_STRAP_SPLAHSCREEN" : false,
+
+"TAPDAQ_APP_ID" : "6120a5b008fe6c2d735d6a78",
+"TAPDAQ_CLIENT_KEY" : "fb5af849-b396-473b-a139-eecc9c3a4716",
+
+//  Exit Dialog
+//  Bantu Rating 5 bintang agar kami dapat terus memberikan informasi informasi terbaru
+//  help give us a 5 star rating, so we keep the spirit of providing the latest updates
+//  jika shre button "true" maka more button berubah fungsi menjadi share - more url hilang menjadi share
+"EXIT_POPUP_DIALOG" : "
+help give us a 5 star rating
+
+so we keep the spirit of providing the latest updates
+
+click rate now button
+",
+"RATE_BUTTON" : "Rate Now",
+"LATER_BUTTON" : "Rate Later",
+"ENABLE_SHARE_BUTTON" : true,
+"SHARE_TXT" : "
+this the best apps ever, ive try it and so awesome
+
+you need to try download this too bro
+",
+"MORE_BUTTON" : "Share Via Whatsapp",
+"URL_MORE_APPS" : "https://play.google.com/store/apps/details?id=com.package.name"
+
+}
+]
+,"Mp3": [
+
+   { "name_mp3": "Anis Kembang",    "link_mp3": "http://archive.org/download/masteranburung/Anis%20Kembang.mp3"  },
+   { "name_mp3": "Anis Merah",    "link_mp3": "http://archive.org/download/masteranburung/Anis%20Merah.mp3"  },
+   { "name_mp3": "Blackbird",    "link_mp3": "http://archive.org/download/masteranburung/Blackbird.mp3"  },
+   { "name_mp3": "Blackthroat",    "link_mp3": "http://archive.org/download/masteranburung/Blackthroat.mp3"  },
+   { "name_mp3": "Branjangan",    "link_mp3": "http://archive.org/download/masteranburung/Branjangan.mp3"  },
+   { "name_mp3": "Cenderawasih",    "link_mp3": "http://archive.org/download/masteranburung/Cenderawasih.mp3"  },
+   { "name_mp3": "Ciblek Gunung",    "link_mp3": "http://archive.org/download/masteranburung/Ciblek%20Gunung.mp3"  },
+   { "name_mp3": "Ciblek Rawa",    "link_mp3": "http://archive.org/download/masteranburung/Ciblek%20Rawa.mp3"  },
+   { "name_mp3": "Ciblek Sawah",    "link_mp3": "http://archive.org/download/masteranburung/Ciblek%20Sawah.mp3"  },
+   { "name_mp3": "Ciblek atau Prenjak",    "link_mp3": "http://archive.org/download/masteranburung/Ciblek%20atau%20Prenjak.mp3"  },
+   { "name_mp3": "Cililin",    "link_mp3": "http://archive.org/download/masteranburung/Cililin.mp3"  },
+   { "name_mp3": "Cipoh",    "link_mp3": "http://archive.org/download/masteranburung/Cipoh.mp3"  },
+   { "name_mp3": "Cucak Cungkok",    "link_mp3": "http://archive.org/download/masteranburung/Cucak%20Cungkok.mp3"  },
+   { "name_mp3": "Cucak Ijo",    "link_mp3": "http://archive.org/download/masteranburung/Cucak%20Ijo.mp3"  },
+   { "name_mp3": "Cucak Jenggot",    "link_mp3": "http://archive.org/download/masteranburung/Cucak%20Jenggot.mp3"  },
+   { "name_mp3": "Cucak Kelabu",    "link_mp3": "http://archive.org/download/masteranburung/Cucak%20Kelabu.mp3"  },
+   { "name_mp3": "Cucak Keling",    "link_mp3": "http://archive.org/download/masteranburung/Cucak%20Keling.mp3"  },
+   { "name_mp3": "Cucak Rante",    "link_mp3": "http://archive.org/download/masteranburung/Cucak%20Rante.mp3"  },
+   { "name_mp3": "Cucak Rowo",    "link_mp3": "http://archive.org/download/masteranburung/Cucak%20Rowo.mp3"  },
+   { "name_mp3": "Decu",    "link_mp3": "http://archive.org/download/masteranburung/Decu.mp3"  },
+   { "name_mp3": "Gelatik Jawa",    "link_mp3": "http://archive.org/download/masteranburung/Gelatik%20Jawa.mp3"  },
+   { "name_mp3": "Gelatik Wingko",    "link_mp3": "http://archive.org/download/masteranburung/Gelatik%20Wingko.mp3"  },
+   { "name_mp3": "Gereja",    "link_mp3": "http://archive.org/download/masteranburung/Gereja.mp3"  },
+   { "name_mp3": "Goldfinch",    "link_mp3": "http://archive.org/download/masteranburung/Goldfinch.mp3"  },
+   { "name_mp3": "Hantu",    "link_mp3": "http://archive.org/download/masteranburung/Hantu.mp3"  },
+   { "name_mp3": "Hwamei Atau Wambi",    "link_mp3": "http://archive.org/download/masteranburung/Hwamei%20Atau%20Wambi.mp3"  },
+   { "name_mp3": "Jalak Kerbau",    "link_mp3": "http://archive.org/download/masteranburung/Jalak%20Kerbau.mp3"  },
+   { "name_mp3": "Jalak Nias",    "link_mp3": "http://archive.org/download/masteranburung/Jalak%20Nias.mp3"  },
+   { "name_mp3": "Jalak Putih",    "link_mp3": "http://archive.org/download/masteranburung/Jalak%20Putih.mp3"  },
+   { "name_mp3": "Jalak Suren",    "link_mp3": "http://archive.org/download/masteranburung/Jalak%20Suren.mp3"  },
+   { "name_mp3": "KACER MASTER",    "link_mp3": "http://archive.org/download/masteranburung/Kacer.mp3"  },
+   { "name_mp3": "Kapas Tembak",    "link_mp3": "http://archive.org/download/masteranburung/Kapas%20Tembak.mp3"  },
+   { "name_mp3": "Masteran kenari durasi panjang",    "link_mp3": "http://archive.org/download/masteranburung/Kenari.mp3"  },
+   { "name_mp3": "Kepodang",    "link_mp3": "http://archive.org/download/masteranburung/Kepodang.mp3"  },
+   { "name_mp3": "Kolibri",    "link_mp3": "http://archive.org/download/masteranburung/Kolibri.mp3"  },
+   { "name_mp3": "Kutilang Jambul",    "link_mp3": "http://archive.org/download/masteranburung/Kutilang%20Jambul.mp3"  },
+   { "name_mp3": "Kutilang",    "link_mp3": "http://archive.org/download/masteranburung/Kutilang.mp3"  },
+   { "name_mp3": "Lovebird",    "link_mp3": "http://archive.org/download/masteranburung/Lovebird.mp3"  },
+   { "name_mp3": "Mozambik",    "link_mp3": "http://archive.org/download/masteranburung/Mozambik.mp3"  },
+   { "name_mp3": "Murai Batu",    "link_mp3": "http://archive.org/download/masteranburung/Murai%20Batu.mp3"  },
+   { "name_mp3": "Nuri",    "link_mp3": "http://archive.org/download/masteranburung/Nuri.mp3"  },
+   { "name_mp3": "Parkit",    "link_mp3": "http://archive.org/download/masteranburung/Parkit.mp3"  },
+   { "name_mp3": "Pelatuk",    "link_mp3": "http://archive.org/download/masteranburung/Pelatuk.mp3"  },
+   { "name_mp3": "Pentet atau Cendet",    "link_mp3": "http://archive.org/download/masteranburung/Pentet%20atau%20Cendet.mp3"  },
+   { "name_mp3": "Perkutut",    "link_mp3": "http://archive.org/download/masteranburung/Perkutut.mp3"  },
+   { "name_mp3": "Pleci",    "link_mp3": "http://archive.org/download/masteranburung/Pleci.mp3"  },
+   { "name_mp3": "Poksay Hitam",    "link_mp3": "http://archive.org/download/masteranburung/Poksay%20Hitam.mp3"  },
+   { "name_mp3": "Poksay Hongkong",    "link_mp3": "http://archive.org/download/masteranburung/Poksay%20Hongkong.mp3"  },
+   { "name_mp3": "Poksay Mandarin",    "link_mp3": "http://archive.org/download/masteranburung/Poksay%20Mandarin.mp3"  },
+   { "name_mp3": "Poksay Punggung Merah",    "link_mp3": "http://archive.org/download/masteranburung/Poksay%20Punggung%20Merah.mp3"  },
+   { "name_mp3": "Remetuk Laut",    "link_mp3": "http://archive.org/download/masteranburung/Remetuk%20Laut.mp3"  },
+   { "name_mp3": "Robin",    "link_mp3": "http://archive.org/download/masteranburung/Robin.mp3"  },
+   { "name_mp3": "Samho Atau Sambo",    "link_mp3": "http://archive.org/download/masteranburung/Samho%20Atau%20Sambo.mp3"  },
+   { "name_mp3": "Sikatan",    "link_mp3": "http://archive.org/download/masteranburung/Sikatan.mp3"  },
+   { "name_mp3": "Tengkek Buto",    "link_mp3": "http://archive.org/download/masteranburung/Tengkek%20Buto.mp3"  },
+   { "name_mp3": "Tledekan",    "link_mp3": "http://archive.org/download/masteranburung/Tledekan.mp3"  },
+   { "name_mp3": "Trucukan",    "link_mp3": "http://archive.org/download/masteranburung/Trucukan.mp3"  }
+
+
+],
+"Wallpaper": [
+
+  {    "image": "file:///android_asset/wallpaper (1).jpg"  },
+  {    "image": "file:///android_asset/wallpaper (2).jpg"  },
+  {    "image": "file:///android_asset/wallpaper (3).jpg"  },
+  {    "image": "file:///android_asset/wallpaper (4).jpg"  },
+  {    "image": "file:///android_asset/wallpaper (5).jpg"  },
+  {    "image": "file:///android_asset/wallpaper (6).jpg"  },
+  {    "image": "file:///android_asset/wallpaper (7).jpg"  },
+  {    "image": "file:///android_asset/wallpaper (8).jpg"  },
+  {    "image": "file:///android_asset/wallpaper (9).jpg"  },
+  {    "image": "file:///android_asset/wallpaper (10).jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/bird_grass_wildlife_225640_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/bird_plants_red_212515_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/bird_branches_flowering_175609_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/bird_feeder_blur_174210_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/tit_bird_branch_134332_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/parrot_yellow_bird_122013_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/macaw_parrot_bird_color_119978_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/snowy_owl_bird_predator_110178_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/heron_sea_ocean_bird_108866_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/parrot_bird_gray_198446_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/bird_silhouette_branch_118501_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/parrot_beak_bird_117656_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/macaw_parrot_bird_120063_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/bird_serious_pose_124650_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/titmouse_bird_sitting_113787_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/bird_exotic_wildlife_154965_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/bird_watching_wildlife_225103_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/sea_sunset_birds_116494_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/bird_silhouette_sky_167769_1080x1920.jpg"  },
+  {    "image": "https://images.wallpaperscraft.com/image/single/flamingos_birds_colorful_feathers_120420_1080x1920.jpg"  }
+
+]
+}
