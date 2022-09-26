@@ -16,7 +16,7 @@
 
 // main ads ke backup ads 
 "MODE_BACKUP_ADS" : true,
-"MODE_NO_ADS" : true,
+"MODE_NO_ADS" : false,
 "MODE_TES_IKLAN_FAN_ADMOB_UNITY_STARTAPP_APPDODEAL" : false,
 
 //     mode pengaturan iklan
@@ -42,7 +42,7 @@
 
 "STARTAPPID" : "200454800",
 
-"ADMOB_BANNER" : "-",
+"ADMOB_BANNER" : "ca-app-pub-8275185398495691/3971795795",
 "ADMOB_INTER" : "-",
 "ADMOB_NATIV" : "-",
 
