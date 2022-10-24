@@ -8,7 +8,7 @@
 "HOMEURL" : "https://rayuangombalanbikinbaper.blogspot.com",
 
 // testing server json yang dipakai
-"JSON_POPUP_WAIT" : "Server Ready",
+"JSON_POPUP_WAIT" : "Server Ready . . .",
 
 // Redirect ke apps lain 
 "REDIRECT_TRAFFIC" : false,
@@ -22,14 +22,15 @@
 //     mode pengaturan iklan
 //     Mode ADMOB       Admob backup Unity Backup Startapp
 //     Mode FAN         FAN backup Unity Backup Startapp
+//     Mode APPODEAL    Appodeal backup Unity Backup Startapp
 //     Mode UNITY       Unity backup Startapp
 //     Mode APPLOVIN    Applovin backup Unity Backup Startapp
-
+//     Mode TAPDAQ    TAPDAQ backup Unity Backup Startapp
 "PENGATURAN_IKLAN_BANNER" : "UNITY",
 "PENGATURAN_IKLAN_INTER" : "UNITY",
 "PENGATURAN_IKLAN_NATIVE" : "UNITY",
 
-"INTER_COUNT" : "20",
+"INTER_COUNT" : "10",
 
 "ENABLE_STRAP" : true,
 "ENABLE_STRAP_SPLAHSCREEN" : false,
@@ -56,6 +57,8 @@
 "FAN_INTER" : "YOUR_PLACEMENT_ID",
 "FAN_NATIVE" : "YOUR_PLACEMENT_ID",
 
+"APPODEAL_APP_ID" : "YOUR_APPODEAL_APP_KEY",
+
 "UNITY_BANNER" : "banner",
 "UNITY_INTERSTITIAL" : "inter",
 "UNITY_GAME_ID" : "4114625",
@@ -78,10 +81,10 @@ Klik tombol rating
 "LATER_BUTTON" : "Later",
 "ENABLE_SHARE_BUTTON" : true,
 "SHARE_TXT" : "
-Aplikasi ini luar biasa
+wah aplikasi ini bagus banget
 
-Anda perlu mencoba mengunduh aplikasi ini
-saya sudah mengunduh dan sangat senang
+aku udah nyobain 
+coba deh kamu donwload sekrang juga
 
 ",
 
