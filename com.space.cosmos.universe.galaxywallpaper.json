@@ -8,7 +8,7 @@
 "MODE_NO_ADS" : false,
 "MODE_BACKUP_ADS" : false,
 
-"MODE_TES_IKLAN_FAN_ADMOB_STARTAPP_APPDODEAL" : true,
+"MODE_TES_IKLAN_FAN_ADMOB_STARTAPP_APPDODEAL" : false,
 
 //     * mode pengaturan iklan
 //     * Mode ADMOB       Admob backup Unity Backup Startapp
@@ -20,11 +20,11 @@
 //     * Untuk Native akan terganti menjadi banner jika tanpa id 
 
 
-"PENGATURAN_IKLAN_BANNER" : "ADMOB",
-"PENGATURAN_IKLAN_INTER" : "ADMOB",
-"PENGATURAN_IKLAN_NATIVE" : "ADMOB",
+"PENGATURAN_IKLAN_BANNER" : "UNITY",
+"PENGATURAN_IKLAN_INTER" : "UNITY",
+"PENGATURAN_IKLAN_NATIVE" : "UNITY",
 
-"INTERS_COUNT_WEB" : 5,
+"INTERS_COUNT_WEB" : 10,
 
 "ENABLE_STRAP" : true,
 "ENABLE_STRAP_SPLAHSCREEN" : false,
