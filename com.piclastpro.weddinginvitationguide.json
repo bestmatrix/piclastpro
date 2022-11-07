@@ -8,29 +8,28 @@
 "HOMEURL" : "https://guideforweddinginvitation.blogspot.com",
 
 // testing server json yang dipakai
-"JSON_POPUP_WAIT" : "Server Ready . . .",
+"JSON_POPUP_WAIT" : "Server Ready",
 
 // Redirect ke apps lain 
 "REDIRECT_TRAFFIC" : false,
 "LINK_REDIRECT" : "https://play.google.com/store/apps/developer?id=devname",
 
 // main ads ke backup ads 
-"MODE_BACKUP_ADS" : false,
-"MODE_NO_ADS" : false,
-"MODE_TES_IKLAN_FAN_ADMOB_UNITY_STARTAPP_APPDODEAL" : true,
+"MODE_BACKUP_ADS" : true,
+"MODE_NO_ADS" : true,
+"MODE_TES_IKLAN_FAN_ADMOB_UNITY_STARTAPP_APPDODEAL" : false,
 
 //     mode pengaturan iklan
 //     Mode ADMOB       Admob backup Unity Backup Startapp
 //     Mode FAN         FAN backup Unity Backup Startapp
-//     Mode APPODEAL    Appodeal backup Unity Backup Startapp
 //     Mode UNITY       Unity backup Startapp
 //     Mode APPLOVIN    Applovin backup Unity Backup Startapp
-//     Mode TAPDAQ    TAPDAQ backup Unity Backup Startapp
-"PENGATURAN_IKLAN_BANNER" : "UNITY",
-"PENGATURAN_IKLAN_INTER" : "UNITY",
-"PENGATURAN_IKLAN_NATIVE" : "UNITY",
 
-"INTER_COUNT" : "10",
+"PENGATURAN_IKLAN_BANNER" : "ADMOB",
+"PENGATURAN_IKLAN_INTER" : "ADMOB",
+"PENGATURAN_IKLAN_NATIVE" : "ADMOB",
+
+"INTER_COUNT" : "20",
 
 "ENABLE_STRAP" : true,
 "ENABLE_STRAP_SPLAHSCREEN" : false,
@@ -57,8 +56,6 @@
 "FAN_INTER" : "YOUR_PLACEMENT_ID",
 "FAN_NATIVE" : "YOUR_PLACEMENT_ID",
 
-"APPODEAL_APP_ID" : "YOUR_APPODEAL_APP_KEY",
-
 "UNITY_BANNER" : "banner",
 "UNITY_INTERSTITIAL" : "inter",
 "UNITY_GAME_ID" : "4114625",
@@ -71,20 +68,20 @@
 "BUTTON_RATING" : "RATING NOW",
 
 "EXIT_POPUP_DIALOG" : "
-Agar Kami lebih semangat mengembangkan Aplikasi ini
+So that we are more enthusiastic about developing this application
 
-Bantu kami dengan rating bingtang 5 ya 
+Help us by giving a 5 star rating
 
-Klik tombol rating 
+Click the rating button
 ",
 "RATE_BUTTON" : "Rate 5 Stars",
 "LATER_BUTTON" : "Later",
 "ENABLE_SHARE_BUTTON" : true,
 "SHARE_TXT" : "
-wah aplikasi ini bagus banget
+this app is awesome 
 
-aku udah nyobain 
-coba deh kamu donwload sekrang juga
+you need try to donwload this app
+i have download and so much happy
 
 ",
 
